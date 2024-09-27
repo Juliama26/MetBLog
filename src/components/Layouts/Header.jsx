@@ -30,9 +30,9 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0">
+    <header className="sticky top-0 z-50">
       <nav
-        className={`relative lg:flex lg:items-center lg:justify-between lg:max-w-6xl mx-auto px-3 py-4  ${
+        className={`relative lg:flex lg:items-center lg:justify-between lg:max-w-6xl mx-auto px-3 py-4 ${
           scrollY
             ? "bg-accent lg:px-10 rounded-b-3xl lg:rounded-b-full transition-all duration-500 ease-in-out"
             : ""
