@@ -8,7 +8,7 @@ import logo from "../../assets/unionMet.png";
 
 const items = [
   {name: "Home", to: ""},
-  {name: "About", to: "about"},
+  // {name: "About", to: "about"},
   {name: "Blogs", to: "blogs"},
   {name: "MetShop", to: "metshop"},
   {name: "Contact", to: "contact"},
